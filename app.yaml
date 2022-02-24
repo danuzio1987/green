@@ -1,0 +1,16 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+skip_files:
+  .env
+
+env_variables:
+  APP_LOG: errorlog
+  APP_KEY: base64:0FMPS0tpv0fk2tXPMyfzDTphG9Wvc7H1jt+d1zVgODk=
+  #STORAGE_DIR: /tmp
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: cookie

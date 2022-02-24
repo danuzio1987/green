@@ -1,0 +1,142 @@
+{
+    "menu": [{
+            "url": "#",
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "icon": "dashboard",
+            "submenu": [{
+                    "url": "/dashboards/geral",
+                    "name": "Geral",
+                    "slug": "geral",
+                    "icon": "bx bx-right-arrow-alt"
+                },
+                {
+                    "url": "/dashboards/armazens",
+                    "name": "Controle de Estoque",
+                    "slug": "vilarinho",
+                    "icon": "bx bx-right-arrow-alt"
+                },
+                {
+                    "url": "/dashboards/sales",
+                    "name": "Controle de Vendas",
+                    "slug": "sales",
+                    "icon": "bx bx-right-arrow-alt"
+                },
+                {
+                    "url": "/dashboards/disponibilidades",
+                    "name": "Disponibilidades",
+                    "slug": "disponibilidades",
+                    "icon": "bx bx-right-arrow-alt"
+                },
+                {
+                    "url": "/dashboards/transfers",
+                    "name": "Transferências",
+                    "slug": "transfers",
+                    "icon": "bx bx-right-arrow-alt"
+                }
+            ]
+        },
+        {
+            "navheader": "Cadastros"
+        },
+        {
+            "url": "/cadastros/usinas",
+            "name": "Usinas",
+            "slug": "usinas.index",
+            "icon": "building"
+        },
+        {
+            "url": "/cadastros/armazens",
+            "name": "Armazéns",
+            "slug": "armazens.index",
+            "icon": "morph-glass"
+        },
+        {
+            "url": "/cadastros/fornecedores",
+            "name": "Fornecedores",
+            "slug": "fornecedores.index",
+            "icon": "truck"
+        },
+        {
+            "url": "/cadastros/clientes",
+            "name": "Clientes",
+            "slug": "clientes.index",
+            "icon": "piggybank"
+        },
+        {
+            "url": "/cadastros/insumos",
+            "name": "Insumos",
+            "slug": "insumos.index",
+            "icon": "lab"
+        },
+        {
+            "url": "/cadastros/produtos",
+            "name": "Produtos",
+            "slug": "produtos.index",
+            "icon": "drop"
+        },
+        {
+            "url": "/cadastros/tancagem",
+            "name": "Tancagem",
+            "slug": "tancagens.index",
+            "icon": "battery-full"
+        },
+        {
+            "navheader": "Pedidos"
+        },
+        {
+            "url": "/pedidos/pedidos",
+            "name": "Meus Pedidos",
+            "slug": "pedidos.index",
+            "icon": "notebook"
+        },
+        {
+            "navheader": "Movimentos"
+        },
+        {
+            "url": "/movimentos/extrato",
+            "name": "Extrato",
+            "slug": "extrato.index",
+            "icon": "list"
+        },
+        {
+            "url": "/movimentos/vendas",
+            "name": "Vendas",
+            "slug": "vendas.index",
+            "icon": "coins"
+        },
+        {
+            "url": "/movimentos/transferencias",
+            "name": "Transferências",
+            "slug": "transferencias.index",
+            "icon": "magic"
+        },
+        {
+            "url": "/movimentos/ajustes",
+            "name": "Ajustes",
+            "slug": "ajustes.index",
+            "icon": "retweet"
+        },
+        {
+            "url": "/movimentos/emprestimos",
+            "name": "Empr./Dev.",
+            "slug": "emprestimos.index",
+            "icon": "swap-horizontal"
+        },
+        {
+            "navheader": "Configurações"
+        },
+        {
+            "url": "/configuracoes/perfil",
+            "name": "Meu Perfil",
+            "slug": "perfil.index",
+            "icon": "user"
+        },
+        {
+            "url": "/configuracoes/acesso",
+            "name": "Perfis de Acesso",
+            "slug": "acesso.index",
+            "icon": "wrench"
+        }
+    ]
+}
